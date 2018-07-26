@@ -1,0 +1,25 @@
+.account-status {
+	padding-top: 70px;
+	padding-left: 80px;
+}
+
+.transfer {
+	margin-left: 80px;
+	margin-top: 40px;
+}
+
+.amount-display {
+	margin-left: 80px;
+	margin-top: 20px;
+}
+
+.amount-transfer-status {
+	padding-top: 70px;
+	padding-left: 80px;
+}
+
+.amount-in-negative {
+	position: relative;
+	top: 15px;
+	left: 80px;
+}
