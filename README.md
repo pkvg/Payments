@@ -12,26 +12,33 @@ service. Simple JSP pages can be found with the controllers as /login,
 
 Requirements
 
-Java - 1.8.x
-Maven - 3.x.x
-Install Hbase - 1.2
+1) Java - 1.8.x
+
+2) Maven - 3.x.x
+
+3) Install Hbase - 1.2
 
 About the Service's
 
 " /createaccount " - The service is used create the account of the user.
+
 " /transferamount " - The service is used to transfer the amount to the Payee.
 
 Here is what this simple application demonstrates:
 
-	1) Integration with the Spring Boot Framework: inversion of control, dependency
+1) Integration with the Spring Boot Framework: inversion of control, dependency
 injection, etc.
-	2) Packaging as a single war with embedded container : No need to install a
+
+2) Packaging as a single war with embedded container : No need to install a
 container separately on the host just run using the java -jar command
-	3) Writing a RESTful service using annotation: supports JSON request / response;
+
+3) Writing a RESTful service using annotation: supports JSON request / response;
 simply use desired Accept header in your request
-	4) Exception mapping from application exceptions to the right HTTP response with
+
+4) Exception mapping from application exceptions to the right HTTP response with
 exception details in the body
-	5) Spring Data Integration with Hbase.
+
+5) Spring Data Integration with Hbase.
 
 The app will start running at http://localhost:8080.
 
